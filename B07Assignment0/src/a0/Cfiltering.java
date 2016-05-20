@@ -1,8 +1,8 @@
 // **********************************************************
 // Assignment0:
-// UTORID:
-// UT Student #:
-// Author:
+// UTORID: sivara57
+// UT Student #: 1001732002
+// Author: Shajan Sivarajah
 //
 //
 // Honor Code: I pledge that this program represents my own
@@ -45,7 +45,10 @@ public class Cfiltering {
    * @param numberOfMovies Determines size of matrix variables.
    */
   public Cfiltering(int numberOfUsers, int numberOfMovies) {
-
+    // create a user matrix with the size of user*user
+    userUserMatrix = new float [numberOfUsers][numberOfUsers];
+    // create a movie matrix with the size of user*movies
+    userMovieMatrix = new int [numberOfUsers][numberOfMovies];
   }
 
   /**
