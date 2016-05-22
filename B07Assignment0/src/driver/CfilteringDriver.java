@@ -80,6 +80,7 @@ public class CfilteringDriver {
       // close the file
       System.out.println("For debugging:Finished reading file");
       fStream.close();
+      in.close();
 
       /*
        * COMPLETE THIS ( I.E. CALL THE APPROPRIATE FUNCTIONS THAT DOES THE
@@ -88,6 +89,7 @@ public class CfilteringDriver {
       // TODO:1.) CALCULATE THE SIMILARITY SCORE BETWEEN USERS.
       cfObject.calculateSimilarityScore(numberOfUsers, numberOfMovies);
       // TODO:2.) PRINT OUT THE userUserMatrix
+      cfObject.printUserUserMatrix();
       // TODO:3.) PRINT OUT THE MOST SIMILAR PAIRS OF USER AND THE MOST
       // DISSIMILAR
       // PAIR OF USERS.
