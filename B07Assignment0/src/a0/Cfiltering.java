@@ -88,19 +88,19 @@ public class Cfiltering {
    */
   public void calculateSimilarityScore(int users, int movies) {
     //
+    float rating = 0;
     for (int i = 0; i < users; i++){
       for (int j = 1; j < users; j++){
-        for (int k = 0; k < movies; k++)
+        for (int k = 0; k < movies; k++) {
+          rating += Math.pow(userMovieMatrix[j][k] - userMovieMatrix[i][k],2);
+        }
+        float distance = (float) Math.sqrt(rating);
+        float similarityscore = (float) 1/(1+distance);
+        userUserMatrix[i][j] = userUserMatrix[j][i] = similarityscore;
       }
-      
-      
+ 
     }
 
-  }
-  
-  public float differenceofsquares(float rating) {
-    //
-    return (float) Math.(rating, 2);
   }
   /*
    * TODO:COMPLETE THIS YOU ARE FREE TO CHANGE THE FUNCTION SIGNATURE BUT DO NOT
