@@ -73,9 +73,9 @@ public class CfilteringDriver {
           System.out.println("For debugging:Rating is :" + singleRating);
           // TODO: COMPLETE THIS I.E. POPULATE THE USER_MOVIE MATRIX
           cfObject.populateUserMovieMatrix(rownum, colnum, rv);
-          rownum++;
+          colnum++;
         }
-        colnum++;
+        rownum++;
       }
       // close the file
       System.out.println("For debugging:Finished reading file");
@@ -89,10 +89,13 @@ public class CfilteringDriver {
       // TODO:1.) CALCULATE THE SIMILARITY SCORE BETWEEN USERS.
       cfObject.calculateSimilarityScore(numberOfUsers, numberOfMovies);
       // TODO:2.) PRINT OUT THE userUserMatrix
-      cfObject.printUserUserMatrix();
+      cfObject.printUserUserMatrix(numberOfUsers);
       // TODO:3.) PRINT OUT THE MOST SIMILAR PAIRS OF USER AND THE MOST
       // DISSIMILAR
       // PAIR OF USERS.
+      cfObject.findAndprintMostSimilarPairOfUsers();
+      cfObject.findAndprintMostDissimilarPairOfUsers();
+      
     } catch (FileNotFoundException e) {
       System.err.println("Do you have the input file in the root folder "
           + "of your project?");
