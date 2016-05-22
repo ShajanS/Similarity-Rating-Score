@@ -46,11 +46,8 @@ public class CfilteringDriver {
       int numberOfMovies = Integer.parseInt(br.readLine());
       System.out.println("For debugging:#Users = " + numberOfUsers);
       System.out.println("For debugging:#Movies= " + numberOfMovies);
-      // Bufferreader reads first line of txt
-      int users = Integer.valueOf(br.readLine());
-      // Bufferreader reads second line of txt
-      int movies = Integer.valueOf(br.readLine());
 
+      
       /*
        * create a new Cfiltering object that contains: a) 2d matrix
        * i.e.userMovieMatrix (#users*#movies) b) 2d matrix i.e. userUserMatrix
@@ -89,7 +86,7 @@ public class CfilteringDriver {
        * FOLLOWING)
        */
       // TODO:1.) CALCULATE THE SIMILARITY SCORE BETWEEN USERS.
-      cfObject.calculateSimilarityScore(users, movies);
+      cfObject.calculateSimilarityScore(numberOfUsers, numberOfMovies);
       // TODO:2.) PRINT OUT THE userUserMatrix
       // TODO:3.) PRINT OUT THE MOST SIMILAR PAIRS OF USER AND THE MOST
       // DISSIMILAR
