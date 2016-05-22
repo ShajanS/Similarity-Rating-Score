@@ -1,5 +1,5 @@
 // **********************************************************
-// Assignment0:
+// Assignment0:group_0052
 // UTORID: sivara57
 // UT Student #: 1001732002
 // Author: Shajan Sivarajah
@@ -16,6 +16,7 @@
 package a0;
 
 public class Cfiltering {
+  
   // this is a 2d matrix i.e. user*movie
   private int userMovieMatrix[][];
   // this is a 2d matrix i.e. user*movie
@@ -45,7 +46,7 @@ public class Cfiltering {
    * @param numberOfMovies Determines size of matrix variables.
    */
   public Cfiltering(int numberOfUsers, int numberOfMovies) {
-    // create a user matrix with the size of user*user
+    // create a user matrix with the size of user*user (square matrix)
     userUserMatrix = new float [numberOfUsers][numberOfUsers];
     // create a movie matrix with the size of user*movies
     userMovieMatrix = new int [numberOfUsers][numberOfMovies];
@@ -85,10 +86,22 @@ public class Cfiltering {
    * @param COMPLETE THIS IF NEEDED
    * @return COMPLETE THIS IF NEEDED
    */
-  public void calculateSimilarityScore() {
+  public void calculateSimilarityScore(int users, int movies) {
+    //
+    for (int i = 0; i < users; i++){
+      for (int j = 1; j < users; j++){
+        for (int k = 0; k < movies; k++)
+      }
+      
+      
+    }
 
   }
-
+  
+  public float differenceofsquares(float rating) {
+    //
+    return (float) Math.(rating, 2);
+  }
   /*
    * TODO:COMPLETE THIS YOU ARE FREE TO CHANGE THE FUNCTION SIGNATURE BUT DO NOT
    * CHANGE THE FUNCTION NAME AND DO NOT MAKE THIS FUNCTION STATIC
