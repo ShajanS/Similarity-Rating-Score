@@ -14,6 +14,8 @@
 // for plagiarism check. 
 // *********************************************************
 package a0;
+import java.text.DecimalFormat;
+import java.util.Arrays;
 
 public class Cfiltering {
   
@@ -88,19 +90,29 @@ public class Cfiltering {
    */
   public void calculateSimilarityScore(int users, int movies) {
     //
-    float rating = 0;
-    for (int i = 0; i < users; i++){
-      for (int j = 1; j < users; j++){
+    for (int i = 0; i < users; i++) {
+      //
+      for (int j = 0; j < users; j++) {
+        //
+        float distance = 0;
+        //
         for (int k = 0; k < movies; k++) {
-          rating += Math.pow(userMovieMatrix[j][k] - userMovieMatrix[i][k],2);
+          //
+          int rating = (userMovieMatrix[i][k] - userMovieMatrix[j][k]);
+          //
+          distance += Math.pow(rating, 2);
         }
-        float distance = (float) Math.sqrt(rating);
-        float similarityscore = (float) 1/(1+distance);
-        userUserMatrix[i][j] = userUserMatrix[j][i] = similarityscore;
-      }
- 
-    }
 
+        float similarityscore = this.similarityscore(distance);
+        userUserMatrix[i][j] = similarityscore;
+        userUserMatrix[j][i] = similarityscore;
+      }
+    }
+  }
+  
+  public float similarityscore(float distance) {
+    //
+    return (float)(1/(1+Math.sqrt(distance)));
   }
   /*
    * TODO:COMPLETE THIS YOU ARE FREE TO CHANGE THE FUNCTION SIGNATURE BUT DO NOT
@@ -116,8 +128,18 @@ public class Cfiltering {
    * @return COMPLETE THIS IF NEEDED
    */
 
-  public void printUserUserMatrix() {
+  public void printUserUserMatrix(int numberOfUsers) {
+    DecimalFormat formatter = new DecimalFormat("0.0000");
+    System.out.println();
+    System.out.println();
+    System.out.println("userUserMatrix is:");
+    
+    String[][] printarray = new String[numberOfUsers][numberOfUsers];
 
+    for (int i = 0; i < numberOfUsers; i++) {
+      for (int k = 0; k < numberOfUsers; k++) {
+      }
+    }
   }
 
   /*
@@ -134,6 +156,12 @@ public class Cfiltering {
    */
 
   public void findAndprintMostSimilarPairOfUsers() {
+    System.out.println();
+    System.out.println();
+    System.out.println("The most similar pairs of users "
+        + "from above userUserMatrix are:");
+    System.out.println();
+    System.out.println("with a similarity score of ");
 
   }
 
@@ -150,6 +178,12 @@ public class Cfiltering {
    * @return COMPLETE THIS IF NEEDED
    */
   public void findAndprintMostDissimilarPairOfUsers() {
+    System.out.println();
+    System.out.println();
+    System.out.println("The most dissimilar pairs of users "
+        + "from above userUserMatrix are:");
+    System.out.println();
+    System.out.println("with a similarity score of ");
 
   }
 }
