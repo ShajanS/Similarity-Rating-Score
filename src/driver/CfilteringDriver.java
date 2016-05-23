@@ -11,7 +11,7 @@
 // I have also read the plagiarism section in the course info
 // sheet of CSC B07 and understand the consequences. In this semester
 // we will select any three of your assignments from total of 5 and run it
-// for plagiarism check. 
+// for plagiarism check.
 // *********************************************************
 package driver;
 
@@ -44,20 +44,15 @@ public class CfilteringDriver {
       // Read dimensions: number of users and number of movies
       int numberOfUsers = Integer.parseInt(br.readLine());
       int numberOfMovies = Integer.parseInt(br.readLine());
-      System.out.println("For debugging:#Users = " + numberOfUsers);
-      System.out.println("For debugging:#Movies= " + numberOfMovies);
 
-      
       /*
        * create a new Cfiltering object that contains: a) 2d matrix
        * i.e.userMovieMatrix (#users*#movies) b) 2d matrix i.e. userUserMatrix
        * (#users*#users)
        */
       Cfiltering cfObject = new Cfiltering(numberOfUsers, numberOfMovies);
-
       // this is a blankline being read
       br.readLine();
-
       // read each line of movie ratings and populate the
       // userMovieMatrix
       String row;
@@ -70,7 +65,6 @@ public class CfilteringDriver {
           int rv = Integer.valueOf(singleRating);
           // make the String number into an integer
           // populate userMovieMatrix
-          System.out.println("For debugging:Rating is :" + singleRating);
           // TODO: COMPLETE THIS I.E. POPULATE THE USER_MOVIE MATRIX
           cfObject.populateUserMovieMatrix(rownum, colnum, rv);
           colnum++;
@@ -78,7 +72,6 @@ public class CfilteringDriver {
         rownum++;
       }
       // close the file
-      System.out.println("For debugging:Finished reading file");
       fStream.close();
       in.close();
 
@@ -95,7 +88,7 @@ public class CfilteringDriver {
       // PAIR OF USERS.
       cfObject.findAndprintMostSimilarPairOfUsers(numberOfUsers);
       cfObject.findAndprintMostDissimilarPairOfUsers(numberOfUsers);
-      
+
     } catch (FileNotFoundException e) {
       System.err.println("Do you have the input file in the root folder "
           + "of your project?");
