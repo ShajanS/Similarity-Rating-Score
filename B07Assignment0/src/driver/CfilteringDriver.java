@@ -93,8 +93,8 @@ public class CfilteringDriver {
       // TODO:3.) PRINT OUT THE MOST SIMILAR PAIRS OF USER AND THE MOST
       // DISSIMILAR
       // PAIR OF USERS.
-      cfObject.findAndprintMostSimilarPairOfUsers();
-      cfObject.findAndprintMostDissimilarPairOfUsers();
+      cfObject.findAndprintMostSimilarPairOfUsers(numberOfUsers);
+      cfObject.findAndprintMostDissimilarPairOfUsers(numberOfUsers);
       
     } catch (FileNotFoundException e) {
       System.err.println("Do you have the input file in the root folder "
