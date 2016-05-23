@@ -1,8 +1,8 @@
 // **********************************************************
-// Assignment0:
-// UTORID:
-// UT Student #:
-// Author:
+// Assignment0: group_0052
+// UTORID: sivara57
+// UT Student #: 1001732002
+// Author: Shajan Sivarajah
 //
 //
 // Honor Code: I pledge that this program represents my own
