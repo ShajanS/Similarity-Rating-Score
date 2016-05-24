@@ -249,4 +249,3 @@ public class Cfiltering {
     System.out.println("with similarity score of " + scoreform.format(score));
   }
 }
-
