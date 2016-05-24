@@ -1,5 +1,5 @@
 // **********************************************************
-// Assignment0: group_0052
+// Assignment0:
 // UTORID: sivara57
 // UT Student #: 1001732002
 // Author: Shajan Sivarajah
