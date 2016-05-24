@@ -79,14 +79,14 @@ public class Cfiltering {
     // go through every user by row
     for (int i = 0; i < users; i++) {
       // loop through every column
-      for (int j = 0; j < users; j++) {
+      for (int j = i; j < users; j++) {
         // Created a variable to hold the distance value between two users
         float distance = 0;
         // loop through every movie
         for (int k = 0; k < movies; k++) {
           // calculate the distance by difference of squares between two users
           // for each movie
-          int rating = (userMovieMatrix[i][k] - userMovieMatrix[j][k]);
+          float rating = (userMovieMatrix[i][k] - userMovieMatrix[j][k]);
           distance += (rating * rating);
         }
         // call the helper function to calculate similarity score
@@ -249,3 +249,4 @@ public class Cfiltering {
     System.out.println("with similarity score of " + scoreform.format(score));
   }
 }
+
