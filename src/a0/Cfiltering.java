@@ -79,7 +79,7 @@ public class Cfiltering {
     // go through every user by row
     for (int i = 0; i < users; i++) {
       // loop through every column
-      for (int j = i; j < users; j++) {
+      for (int j = 0; j < users; j++) {
         // Created a variable to hold the distance value between two users
         float distance = 0;
         // loop through every movie
