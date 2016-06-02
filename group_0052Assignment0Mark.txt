@@ -1,0 +1,327 @@
++++ASSIGNMENT0 MARK DETAIL+++
+Your mark out of 10 is: [  10 :/10] 
+This assignment has been marked by TA (Name and Email):  Kyung Hun Lee khryan.lee@mail.utoronto.ca
+If you have any questions about your mark, contact the above TA first
+
+
+
+PART 1) +++SVN CHECKOUT ON YOUR ASSIGNMENT0+++
+A    B07Assignment0/src
+A    B07Assignment0/src/driver
+A    B07Assignment0/src/driver/CfilteringDriver.java
+A    B07Assignment0/src/a0
+A    B07Assignment0/src/a0/Cfiltering.java
+A    B07Assignment0/input1.txt
+A    B07Assignment0/input2.txt
+A    B07Assignment0/test
+A    B07Assignment0/test/input3.txt
+A    B07Assignment0/test/input4.txt
+A    B07Assignment0/test/input5.txt
+A    B07Assignment0/test/input6.txt
+Checked out revision 24.
+
+
+
+PART 2) +++SVN COMMIT LOGS ARE+++
+------------------------------------------------------------------------
+r24 | sivara57@UTORONTO.CA | 2016-05-23 23:39:52 -0400 (Mon, 23 May 2016) | 1 line
+
+fixed honor code mistake
+------------------------------------------------------------------------
+r23 | sivara57@UTORONTO.CA | 2016-05-23 23:37:28 -0400 (Mon, 23 May 2016) | 1 line
+
+removed extra blank line at the end of the file
+------------------------------------------------------------------------
+r22 | sivara57@UTORONTO.CA | 2016-05-23 23:33:11 -0400 (Mon, 23 May 2016) | 1 line
+
+found and fixed an error from a variable pointer 
+------------------------------------------------------------------------
+r21 | sivara57@UTORONTO.CA | 2016-05-23 23:26:55 -0400 (Mon, 23 May 2016) | 1 line
+
+test case #4,5,6
+------------------------------------------------------------------------
+r20 | sivara57@UTORONTO.CA | 2016-05-23 23:26:30 -0400 (Mon, 23 May 2016) | 1 line
+
+test case 3
+------------------------------------------------------------------------
+r19 | sivara57@UTORONTO.CA | 2016-05-23 23:25:56 -0400 (Mon, 23 May 2016) | 1 line
+
+final commit tweaked variable type
+------------------------------------------------------------------------
+r18 | sivara57@UTORONTO.CA | 2016-05-23 22:27:34 -0400 (Mon, 23 May 2016) | 1 line
+
+test case #3
+------------------------------------------------------------------------
+r17 | sivara57@UTORONTO.CA | 2016-05-23 17:02:43 -0400 (Mon, 23 May 2016) | 1 line
+
+added and tweaked comments and completed most similar and most dissimilar functions 
+------------------------------------------------------------------------
+r16 | sivara57@UTORONTO.CA | 2016-05-23 15:56:16 -0400 (Mon, 23 May 2016) | 1 line
+
+updated the honor code
+------------------------------------------------------------------------
+r15 | sivara57@UTORONTO.CA | 2016-05-23 15:54:52 -0400 (Mon, 23 May 2016) | 1 line
+
+removed debugging code lines and formated code to google code standards
+------------------------------------------------------------------------
+r14 | sivara57@UTORONTO.CA | 2016-05-23 15:02:56 -0400 (Mon, 23 May 2016) | 1 line
+
+added arguments to get passed on to the methods
+------------------------------------------------------------------------
+r13 | sivara57@UTORONTO.CA | 2016-05-22 16:52:14 -0400 (Sun, 22 May 2016) | 1 line
+
+Tweaked calculatesimilarityscore and added the basic format for the print functions
+------------------------------------------------------------------------
+r12 | sivara57@UTORONTO.CA | 2016-05-22 16:49:46 -0400 (Sun, 22 May 2016) | 1 line
+
+Called the appropriate functions required to complete the task 
+------------------------------------------------------------------------
+r11 | sivara57@UTORONTO.CA | 2016-05-22 14:29:42 -0400 (Sun, 22 May 2016) | 1 line
+
+added new test folder
+------------------------------------------------------------------------
+r10 | sivara57@UTORONTO.CA | 2016-05-22 14:26:32 -0400 (Sun, 22 May 2016) | 1 line
+
+Resolved resource leak by closing in 
+------------------------------------------------------------------------
+r9 | sivara57@UTORONTO.CA | 2016-05-22 14:24:19 -0400 (Sun, 22 May 2016) | 1 line
+
+merged two functions together
+------------------------------------------------------------------------
+r8 | sivara57@UTORONTO.CA | 2016-05-22 14:00:24 -0400 (Sun, 22 May 2016) | 1 line
+
+deleted 2 lines of my code because it was provided by the source code
+------------------------------------------------------------------------
+r7 | sivara57@UTORONTO.CA | 2016-05-22 13:56:48 -0400 (Sun, 22 May 2016) | 1 line
+
+Calling two function from cfiltering.java in main and used buffer read to get information from input text.
+------------------------------------------------------------------------
+r6 | sivara57@UTORONTO.CA | 2016-05-22 12:48:41 -0400 (Sun, 22 May 2016) | 2 lines
+
+Completed difference of squares helper function
+Updated Honor Code
+------------------------------------------------------------------------
+r5 | sivara57@UTORONTO.CA | 2016-05-20 09:22:55 -0400 (Fri, 20 May 2016) | 1 line
+
+Finished first TODO function which determines the size of the user and movie matrix
+------------------------------------------------------------------------
+r4 | attarwal@UTORONTO.CA | 2016-05-14 19:27:43 -0400 (Sat, 14 May 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r3 | attarwal@UTORONTO.CA | 2016-05-14 19:27:42 -0400 (Sat, 14 May 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r2 | attarwal@UTORONTO.CA | 2016-05-14 19:27:42 -0400 (Sat, 14 May 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+Marks Deductions here: 0
+
+
+
+PART 3) +++FOLLOWING LINES ARE GREATER THAN 80 CHARACTERS+++
+Marks Deductions here: 0
+
+
+
+PART 4) +++TEST FOLDER WITH TEST FILES IN IT?+++
+------------------------------------------------------------------------
+r21 | sivara57@UTORONTO.CA | 2016-05-23 23:26:55 -0400 (Mon, 23 May 2016) | 1 line
+
+test case #4,5,6
+------------------------------------------------------------------------
+r20 | sivara57@UTORONTO.CA | 2016-05-23 23:26:30 -0400 (Mon, 23 May 2016) | 1 line
+
+test case 3
+------------------------------------------------------------------------
+r18 | sivara57@UTORONTO.CA | 2016-05-23 22:27:34 -0400 (Mon, 23 May 2016) | 1 line
+
+test case #3
+------------------------------------------------------------------------
+r11 | sivara57@UTORONTO.CA | 2016-05-22 14:29:42 -0400 (Sun, 22 May 2016) | 1 line
+
+added new test folder
+------------------------------------------------------------------------
+Marks Deductions here: 0
+
+
+
+PART 5) +++HONOR CODE?+++
+// **********************************************************
+// Assignment0:
+// UTORID: sivara57
+// UT Student #: 1001732002
+// Author: Shajan Sivarajah
+//
+//
+// Honor Code: I pledge that this program represents my own
+// program code and that I have coded on my own. I received
+// help from no one in designing and debugging my program.
+// I have also read the plagiarism section in the course info
+// sheet of CSC B07 and understand the consequences. In this semester
+// we will select any three of your assignments from total of 5 and run it
+// for plagiarism check.
+Marks Deductions here: 0
+
+
+
+PART 6) +++IDE FILES+++
+Marks Deductions here: 0
+
+
+
+PART 7) +++STATIC FUNCTIONS IN YOUR CODE+++
+Marks Deductions here: 0
+
+
+
+PART 8) +++COMMENTS IN cFiltering.java
+Marks Deductions here: 0
+// for plagiarism check.
+// *********************************************************
+  // this is a 2d matrix i.e. user*movie
+  // this is a 2d matrix i.e. user*movie
+    // this is 2d matrix of size 1*1
+    // this is 2d matrix of size 1*1
+    // create a user matrix with the size of user*user (square matrix)
+    // create a movie matrix with the size of user*movies
+    // go through every user by row
+      // loop through every column
+        // Created a variable to hold the distance value between two users
+        // loop through every movie
+          // calculate the distance by difference of squares between two users
+          // for each movie
+        // call the helper function to calculate similarity score
+        // set userUserMatrix values to the appropriate similarity scores
+        // symmetric matrix [i][j] == [j][i]
+    // plug and play the input value and return the similarity score
+    // formating of intended output result
+    // Create an array to hold similarity scores between users
+    // set decimal format to match output requirements
+        // format the array
+      // print rows
+    // iterate through rows and columns
+        // i must not equal j
+          // If function must find most similar score
+            // is less than...empty condition
+            // is greater than, then set base to the higher value
+          // If function must find most dissimilar score
+            // is greater than...empty condition
+            // is less than, then set base to the lower value
+    // return value
+    // formating of intended output result
+    // call helper function to find most similar pair
+    // iterate through rows and columns
+        // check which user has the most similar score
+            // print the results formated to the output
+            // +1 used to not print duplicates
+            // (user 1 and user 2 == user 2 and user 1)
+    // format the similarity score and print
+    // formating of intended output result
+    // call helper function to find most dissimilar pair
+    // iterate through rows and columns
+        // check which user has the most dissimilar score
+            // print the results formated to the output
+            // +1 used to not print duplicates
+            // (user 1 and user 2 == user 2 and user 1)
+    // format the similarity score and print
+
+
+
+PART 9) +++COMPILING YOUR CODE+++
+Marks Deductions here: 0
+
+
+
++++RUNNING YOUR CODE+++
+PART 10) +++RUNNING TESTCASE1+++
+Marks Deductions here: 0
+Enter the name of input file? 
+
+
+userUserMatrix is:
+[1.0000, 1.0000, 1.0000, 1.0000]
+[1.0000, 1.0000, 1.0000, 1.0000]
+[1.0000, 1.0000, 1.0000, 1.0000]
+[1.0000, 1.0000, 1.0000, 1.0000]
+
+
+The most similar pairs of users from above userUserMatrix are:
+User1 and User2
+User1 and User3
+User1 and User4
+User2 and User3
+User2 and User4
+User3 and User4
+with similarity score of 1.0000
+
+
+The most dissimilar pairs of users from above userUserMatrix are:
+User1 and User2
+User1 and User3
+User1 and User4
+User2 and User3
+User2 and User4
+User3 and User4
+with similarity score of 1.0000
+
+
+
+PART 11) +++RUNNING TESTCASE2+++
+Marks Deductions here: 0
+Enter the name of input file? 
+
+
+userUserMatrix is:
+[1.0000, 1.0000, 0.1006, 0.1006]
+[1.0000, 1.0000, 0.1006, 0.1006]
+[0.1006, 0.1006, 1.0000, 1.0000]
+[0.1006, 0.1006, 1.0000, 1.0000]
+
+
+The most similar pairs of users from above userUserMatrix are:
+User1 and User2
+User3 and User4
+with similarity score of 1.0000
+
+
+The most dissimilar pairs of users from above userUserMatrix are:
+User1 and User3
+User1 and User4
+User2 and User3
+User2 and User4
+with similarity score of 0.1006
+
+
+
+PART 12) +++RUNNING TESTCASE3+++
+Marks Deductions here: 0
+Enter the name of input file? 
+
+
+userUserMatrix is:
+[1.0000, 0.1082, 0.1082, 0.1082, 1.0000]
+[0.1082, 1.0000, 1.0000, 1.0000, 0.1082]
+[0.1082, 1.0000, 1.0000, 1.0000, 0.1082]
+[0.1082, 1.0000, 1.0000, 1.0000, 0.1082]
+[1.0000, 0.1082, 0.1082, 0.1082, 1.0000]
+
+
+The most similar pairs of users from above userUserMatrix are:
+User1 and User5
+User2 and User3
+User2 and User4
+User3 and User4
+with similarity score of 1.0000
+
+
+The most dissimilar pairs of users from above userUserMatrix are:
+User1 and User2
+User1 and User3
+User1 and User4
+User2 and User5
+User3 and User5
+User4 and User5
+with similarity score of 0.1082
